@@ -1,0 +1,178 @@
+* {
+  box-sizing: border-box;
+  font-family: "Noto Sans KR", sans-serif;
+  font-family: "Noto Sans Mono", monospace;
+}
+
+.s-1 {
+  background-image: url(../images/full-bg-1.jpg);
+  background-size: cover;
+}
+
+.s-2 {
+  background-image: url(../images/full-bg-2.jpg);
+  background-size: cover;
+}
+
+.s-3 {
+  background-image: url(../images/full-bg-3.jpg);
+  background-size: cover;
+}
+
+/* section-1 */
+.logo {
+  position: absolute;
+  top: 40px;
+  left: 50px;
+  font-size: 48px;
+}
+
+.user {
+  position: absolute;
+  top: 145px;
+  left: 50px;
+  font-size: 16px;
+}
+
+.search_area {
+  width: 250px;
+  height: 30px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.search_area > form > input {
+  border: none;
+  background: rgba(0, 0, 0, 0);
+  width: 218px;
+  height: 30px;
+  color: #fff;
+  padding-left: 10px;
+}
+
+.search_area > form > span {
+  width: 25px;
+}
+
+.fa-search {
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.menu {
+  position: absolute;
+  top: 245px;
+  left: 50px;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+}
+
+.user-item {
+  cursor: pointer;
+}
+
+.menu-item {
+  cursor: pointer;
+}
+
+/* section-2 */
+.intro-title {
+  font-size: 48px;
+  text-align: center;
+  color: white;
+}
+
+.title-script {
+  text-align: center;
+  margin: 5px 0 25px 0;
+  color: white;
+}
+
+.bt-shop {
+  display: block;
+  width: 80px;
+  height: 30px;
+  background-color: transparent;
+  border: 2px solid white;
+  text-align: center;
+  margin: auto;
+  cursor: pointer;
+}
+
+.bt-shop:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.bt-shop > span {
+  color: white;
+  font-weight: 800;
+}
+
+.fa-chevron-down {
+  color: white;
+  font-size: 30px;
+  color: white;
+}
+
+/* section-3 */
+.s-3 section {
+  margin: 100px;
+}
+
+.s-3 section h1 {
+  font-size: 40px;
+  margin: 17px 0;
+}
+.s-3 section span {
+  font-size: 18px;
+}
+
+.bt-about {
+  display: block;
+  width: 120px;
+  height: 40px;
+  margin-top: 20px;
+  background-color: transparent;
+  border: 2px solid black;
+  cursor: pointer;
+}
+
+.bt-about:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+/* section-4 */
+.s-4 section {
+  position: absolute;
+  top: 200px;
+  left: 200px;
+}
+
+.s-4 section h1 {
+  margin: 15px 0 40px 0;
+  font-size: 48px;
+}
+
+.s-4 section span:nth-child(1) {
+  font-size: 30px;
+}
+
+.fab {
+  cursor: pointer;
+}
+
+.fa-instagram {
+  margin: 0 30px;
+}
+
+h4 {
+  line-height: 25px;
+}
