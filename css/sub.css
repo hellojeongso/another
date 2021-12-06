@@ -1,0 +1,217 @@
+* {
+  box-sizing: border-box;
+  font-family: "Noto Sans KR", sans-serif;
+  font-family: "Noto Sans Mono", monospace;
+}
+
+/* Navbar */
+.wrap {
+  width: 100%;
+  border-bottom: 1px solid black;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: column;
+  width: 1280px;
+  height: 180px;
+  margin: auto;
+}
+
+.login {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.login-item {
+  margin-left: 20px;
+  padding-top: 15px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.login > li:nth-child(1)::after {
+  content: "｜";
+  color: #ddd;
+  font-size: 16px;
+  padding: 0 10px;
+}
+
+.login > li:nth-child(2)::after {
+  content: "｜";
+  color: #ddd;
+  font-size: 16px;
+  padding: 0 10px;
+}
+
+li.login-item {
+  margin: 0;
+}
+
+.fa-shopping-bag {
+  padding: 0 15px;
+}
+
+.logo {
+  margin: auto;
+}
+
+.logo > a {
+  font-size: 48px;
+  font-weight: 600;
+  color: #000000;
+  cursor: pointer;
+}
+
+.menu {
+  display: flex;
+  margin: auto;
+  padding: 30px 0;
+}
+
+.menu-item {
+  font-size: 20px;
+  font-weight: 800;
+  margin-left: 50px;
+  cursor: pointer;
+}
+
+.menu-item:hover {
+  text-decoration: underline;
+}
+
+/* Main-1 */
+.sub-main {
+  width: 100%;
+}
+
+.main-box-1 {
+  width: 1280px;
+  margin: auto;
+  padding-top: 50px;
+}
+
+.main-img > img {
+  display: block;
+  width: 600px;
+  height: 400px;
+  margin: auto;
+}
+
+.main-contents-1 {
+  margin: 40px 0;
+  text-align: center;
+}
+
+.main-contents-1 > h1 {
+  font-size: 35px;
+}
+
+.content {
+  line-height: 25px;
+}
+
+/* Main-2 */
+.main-2 {
+  width: 100%;
+}
+
+.main-box-2 {
+  display: flex;
+  width: 1280px;
+  margin: auto;
+  padding: 50px 0 30px 0;
+}
+
+.info-set {
+  margin: 10px 20px 30px 20px;
+  padding: 15px;
+  border: 1px solid #ddd;
+}
+
+.info-set > img {
+  width: 350px;
+  height: 250px;
+}
+
+.main-info {
+  text-align: center;
+}
+
+.main-info > span {
+  font-size: 14px;
+  line-height: 25px;
+}
+
+.bts > button {
+  width: 100px;
+  height: 30px;
+  background-color: transparent;
+  border: 2px solid #ddd;
+  text-align: center;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.bts > button:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+/* Footer */
+.footer {
+  width: 100%;
+  background-color: #ededed;
+}
+
+.last {
+  width: 1280px;
+  margin: auto;
+  padding: 30px;
+  text-align: center;
+}
+
+.last > span:nth-child(1) {
+  font-size: 25px;
+}
+
+.fa-facebook-f,
+.fa-instagram,
+.fa-youtube {
+  padding-left: 7px;
+}
+
+.last > h1 {
+  margin: 8px 0;
+}
+
+.last-info {
+  margin-top: 15px;
+  line-height: 25px;
+}
+
+.last-info > span {
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.last-info > span:nth-child(1)::after {
+  content: "｜";
+  color: #ddd;
+  font-size: 14px;
+  padding: 0 5px;
+}
+
+.last-info > span:nth-child(2)::after {
+  content: "｜";
+  color: #ddd;
+  font-size: 14px;
+  padding: 0 5px;
+}
+
+.last-contect {
+  margin: 15px 0;
+  line-height: 25px;
+}

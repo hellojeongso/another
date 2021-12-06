@@ -5,12 +5,12 @@
 }
 
 .s-1 {
-  background-image: url(../images/full-bg-1.jpg);
+  background-image: url(../images/full-bg-2.jpg);
   background-size: cover;
 }
 
 .s-2 {
-  background-image: url(../images/full-bg-2.jpg);
+  background-image: url(../images/full-bg-1.jpg);
   background-size: cover;
 }
 
@@ -25,6 +25,8 @@
   top: 40px;
   left: 50px;
   font-size: 48px;
+  color: #fff;
+  cursor: pointer;
 }
 
 .user {
@@ -32,6 +34,7 @@
   top: 145px;
   left: 50px;
   font-size: 16px;
+  color: #fff;
 }
 
 .search_area {
@@ -66,7 +69,8 @@
   left: 50px;
   font-size: 20px;
   font-weight: 600;
-  line-height: 30px;
+  line-height: 40px;
+  color: #fff;
 }
 
 .user-item {
@@ -75,6 +79,10 @@
 
 .menu-item {
   cursor: pointer;
+}
+
+.menu-item:hover {
+  text-decoration: underline;
 }
 
 /* section-2 */
