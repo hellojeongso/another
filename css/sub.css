@@ -270,9 +270,10 @@ Sub-store
 }
 
 .item-price {
-  margin: 10px 0;
+  margin: 12px 0;
   color: tomato;
   border-top: 1px solid black;
+  padding-top: 8px;
 }
 
 .review {

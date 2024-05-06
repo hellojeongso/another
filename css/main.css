@@ -133,7 +133,8 @@
 
 /* section-3 */
 .s-3 section {
-  margin: 100px;
+  margin-left: 100px;
+  color: #fff;
 }
 
 .s-3 section h2 {
